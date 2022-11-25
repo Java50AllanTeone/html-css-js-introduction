@@ -4,31 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Chessboard</title>
+    <link rel="stylesheet" href="styles/chessboard.css">
 </head>
 <body>
-    <label style="display: block; width: 250px; margin-left: auto; margin-right: auto;">
-        <a href="https://www.meetup.com/ru-RU/javail/" style="display: block; text-decoration: none;">
-            <img src="img/java_meetup_logo.jpeg" style="width: 30px;">
-            <b>Java meetup Israel</b>
-        </a>
-        <a href="https://google.com" style="display: block; text-decoration: none;">
-            <img src="img/google_logo.png" style="width: 30px;">
-            <b>Google</b>
-        </a>
-        <a href="https://www.meetup.com/ru-RU/javascript-israel/" style="display: block; text-decoration: none;">
-            <img src="img/javascript_logo.png" style="width: 30px;">
-            <b>JavaScript meetup Israel</b>
-        </a>
-        <a href="https://www.meetup.com/ru-RU/topics/html/il/" style="display: block; text-decoration: none;">
-            <img src="img/html_logo.png" style="width: 30px;">
-            <b>HTML meetup Israel</b>
-        </a>
-        <a href="https://www.meetup.com/ru-RU/react-il/" style="display: block; text-decoration: none;">
-            <img src="img/react_logo.png" style="width: 30px;">
-            <b>React meetup Israel</b>
-        </a>
-    </label>
+
+    <main class="board">
+
+        <section class="char-row">
+            <div class="char rotate">A</div>
+            <div class="char rotate">B</div>
+            <div class="char rotate">C</div>
+            <div class="char rotate">D</div>
+            <div class="char rotate">E</div>
+            <div class="char rotate">F</div>
+            <div class="char rotate">G</div>
+            <div class="char rotate">H</div>
+        </section>
+
+        <section class="board-row odd">
+            <div class="number">1</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number rotate">1</div>
+        </section>
+
+        <section class="board-row even">
+            <div class="number rotate">2</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number">2</div>
+        </section>
+
+        <section class="board-row odd">
+            <div class="number">3</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number rotate">3</div>
+        </section>
+
+        <section class="board-row even">
+            <div class="number rotate">4</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number">4</div>
+        </section>
+
+        <section class="board-row odd">
+            <div class="number">5</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number rotate">5</div>
+        </section>
+
+        <section class="board-row even">
+            <div class="number rotate">6</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number">6</div>
+        </section>
+
+        <section class="board-row odd">
+            <div class="number">7</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number rotate">7</div>
+        </section>
+
+        <section class="board-row even">
+            <div class="number rotate">8</div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="cell-black"></div>
+            <div class="cell-white"></div>
+            <div class="number">8</div>
+        </section>
+
+
+        <section class="char-row">
+            <div class="char">A</div>
+            <div class="char">B</div>
+            <div class="char">C</div>
+            <div class="char">D</div>
+            <div class="char">E</div>
+            <div class="char">F</div>
+            <div class="char">G</div>
+            <div class="char">H</div>
+        </section>
+    </main>
+   
 
 </body>
 </html>

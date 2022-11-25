@@ -1,0 +1,67 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 4vw;
+    width: 30vw;
+    height: 30vw;
+
+    border-style: outset;
+}
+
+.board-row {
+    display: flex;
+}
+
+.odd {
+    flex-direction: row;
+}
+
+.even {
+    flex-direction: row-reverse;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3vw;
+    height: 3vw;
+    
+    border: solid 1px black;
+}
+
+.cell-black {
+    background-color: black;
+}
+
+.cell-white {
+    background-color: white;
+}
+
+.cell-black:hover, .cell-white:hover {
+    background-color: royalblue;
+}
+
+.char {
+    height: 1.5vw;
+    border-color: white;
+}
+
+.char-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number {
+    width: 2vw;
+    border-color: white;
+}
+
+.rotate {
+    -webkit-transform: rotate(180deg);
+}
