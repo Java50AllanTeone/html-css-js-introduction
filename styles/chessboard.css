@@ -9,6 +9,7 @@
     height: 30vw;
 
     border-style: outset;
+    background-color: whitesmoke;
 }
 
 .board-row {
@@ -30,8 +31,8 @@ div {
 
     width: 3vw;
     height: 3vw;
-    
-    border: solid 1px black;
+
+    border: none;
 }
 
 .cell-black {
